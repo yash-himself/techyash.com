@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    color: rgb(0, 123, 18);
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(223, 255, 228);
+    overflow-x: hidden;
+}
+
+::selection {
+    background-color: rgb(0, 123, 18);
+    color: rgb(187, 255, 197);
+}
+
+/* ================== Navigation section================ */
+
+header {
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    background-color: rgb(187, 255, 197);
+    border-radius: none;
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.5);
+}
+#navbar{
+    display: none;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75vw;
+    justify-content: center;
+}
+.logo img {
+  
+    width: 60px;
+    height: 20px;
+    border-radius: 6px;
+}
+.logo p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#main {
+    width: 100vw; text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 255, 228);
+    color: rgb(0, 123, 18);
+   
+}
+
+B {
+    font-weight: 900;
+}
+
+#main h2 {
+    margin: 20px;
+}
+
+#main h1 {
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 90vw;
+ 
+}
+
+#main p {
+    font-family: 'Nunito', sans-serif;
+    margin: 30px 150px 20px 150px;
+    width: 85vw;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.offers {
+    text-align: center;
+    width: 80vw;
+    height: 70px;
+    background-color: rgb(187, 255, 197);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    padding-top: 50PX;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .item {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    background-color: rgb(187, 255, 197);
+    border-radius: 20px;
+    height: 290px;
+    width: 250px;
+    box-shadow: 4px 5px 14px -3px rgba(41, 41, 41, 0.5);
+}
+.item p {
+    margin-top: 20px;
+    height: 20vh;
+    width: auto;
+    text-align: center;
+}
+
+#clients {
+
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(0, 123, 18);
+    padding-top: 20px;
+    width: 100%;
+    height: 160px;
+    margin-top: 20px;
+    
+}
+.ourclients{
+    display: flex;
+    /* width: 100px; */
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.ourclients h3 {
+    margin-top: 40px 0px 40px 0px;
+    padding: 10px;
+    font-size: 15px;
+}
+#footer{
+    width: 100vw;
+
+}
+footer h2{
+
+    text-align: center;
+    margin-bottom: 15p;
+
+}
+#footer p {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+#footer .bttn:hover {
+    border: 2px solid rgb(27, 27, 27);
+    background-color: rgb(196, 196, 196);
+    color: black;
+    font-weight: 900;
+}
+.formcontainer {
+    display: flex;
+}
+
+.frm {
+    width: 100%;
+    text-align: center;
+
+}
+h3 {
+    margin-bottom: 20px;
+}
+.inp {
+    height: 27px;
+    width: 290px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(214, 214, 214);
+}
+
+#submit {
+    font-weight: 700;
+    background-color: rgb(223, 255, 228);
+    margin-bottom: 20px;
+
+}
+
+#submit:hover {
+    color: gray;
+}
+
+
+#description {
+    height: 100px;
+
+
+
+}
